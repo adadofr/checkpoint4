@@ -1,0 +1,23 @@
+p{
+    margin: 0;
+}
+
+.desktop-top{
+    width: 50%;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.desktop-top-nav-bar{
+    width: 100%;
+    padding-top: 25px;
+}
