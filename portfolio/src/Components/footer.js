@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Footer () {
     const Linkedin = (props) =>(
@@ -13,9 +14,20 @@ function Footer () {
   return (
     <div className='footer'>
         <div className='footer-icons'>
+        <a href='https://www.linkedin.com/in/adama-sonko1/' >
             <Linkedin fill='white' />
+        </a>
+        <a href='https://github.com/adadofr' >
             <Github fill='white' />
+        </a>
+        <NavLink
+            exact
+            to='/contact'
+            className='link-about'
+          >
             <Mail fill='white' />
+        </NavLink>
+        
         </div>
     </div>
   );}

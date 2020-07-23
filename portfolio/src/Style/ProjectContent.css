@@ -1,0 +1,11 @@
+.projectContent-card{
+    width: 60%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
