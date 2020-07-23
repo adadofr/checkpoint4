@@ -28,22 +28,22 @@ export default class Contact extends Component {
         <div className='author-id'>
           <div className='author-username'>
             <label>Name : </label>
-            <input className='name' type='text' name='username' placeholder='Entrez votre pseudo' />
+            <input className='name' type='text' name='username' placeholder='Enter your name' />
           </div>
           <div className='author-mail'>
             <label>Email : </label>
-            <input className='two-columns' type='email' name='email' placeholder='Entrez votre adresse email' />
+            <input className='two-columns' type='email' name='email' placeholder='Enter your email' />
           </div>
         </div>
         <div className='form-title'>
           <label>Subject : </label>
-          <input type='text' name='title' placeholder='Entrez le sujet de votre mail:' />
+          <input type='text' name='title' placeholder='Enter the subject of your message' />
         </div>
         <div className='post-content'>
           <label>Your message : </label>
-          <textarea name='description' placeholder='Your message' />
+          <textarea name='description' placeholder='Enter your message' />
         </div>
-        <button type='submit' className='btn-search'>Envoyer</button>
+        <button type='submit' className='btn-search'>Send</button>
       </form>
         <Footer />
       </div>
