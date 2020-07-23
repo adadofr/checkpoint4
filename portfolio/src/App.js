@@ -1,6 +1,5 @@
 import React from 'react';
 import Home from './Pages/Home';
-import Footer from './Components/footer';
 
 import './App.css';
 
@@ -15,7 +14,7 @@ function App() {
 }}>
       <Logo fill='white'/>
       <Home />
-      <Footer />
+      
     </div>
   );
 }
