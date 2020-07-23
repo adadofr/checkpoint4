@@ -1,7 +1,12 @@
 .body-home{
-    height: 100vh;
+    height: 100%;
     width: auto;
     margin: 0;
     padding: 0;
 
+}
+
+.animation{
+    width: 1150px;
+    height: auto;
 }

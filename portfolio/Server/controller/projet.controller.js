@@ -12,7 +12,7 @@ exports.create = (req, res) => {
       const projet = new Projet({
         name: req.body.name,
         duration: req.body.duration,
-        duration: req.body.github
+        github: req.body.github
       });
     
       // Save Projet in the database
